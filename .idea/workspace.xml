@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63c5b0be-8c3d-4551-bd79-8196db4b53dd" name="Default" comment="" />
+    <list default="true" id="63c5b0be-8c3d-4551-bd79-8196db4b53dd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/systemnews_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/systemnews_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_6_0_6_bin.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_6_0_6_bin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/WEB-INF/classes/database.properties" afterPath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/WEB-INF/classes/database.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/main.jsp" afterPath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/menu.jsp" afterPath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/menu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/newsadd.jsp" afterPath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/newsadd.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/newsedit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/newsedit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/newslist.jsp" afterPath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/newslist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/style.css" afterPath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/typeadd.jsp" afterPath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/typeadd.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/typeedit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/typeedit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/typelist.jsp" afterPath="$PROJECT_DIR$/out/artifacts/systemnews_war_exploded/admin/typelist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/systemnews/database.properties" afterPath="$PROJECT_DIR$/out/production/systemnews/database.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/adminmanage/dao/AdminDAOImpl.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/adminmanage/dao/AdminDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/adminmanage/dao/IAdminDAO.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/adminmanage/dao/IAdminDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/adminmanage/servlet/AdminServlet.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/adminmanage/servlet/AdminServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/adminmanage/servlet/LoginServlet.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/adminmanage/servlet/LoginServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/adminmanage/vo/Admins.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/adminmanage/vo/Admins.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/newsmanage/dao/INewsDAO.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/newsmanage/dao/INewsDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/newsmanage/dao/NewsDAOImpl.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/newsmanage/dao/NewsDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/newsmanage/servlet/NewsServlet.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/newsmanage/servlet/NewsServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/newsmanage/vo/News.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/newsmanage/vo/News.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/dao/ITypeDAO.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/dao/ITypeDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/dao/TypeDAOImpl.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/dao/TypeDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/servlet/TypeServlet.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/servlet/TypeServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/vo/NewsTypes.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/vo/NewsTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/util/DBUtil.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/util/DBUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/util/DaoFactory.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/util/DaoFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hzgg/systemnews/util/IBaseDAO.java" afterPath="$PROJECT_DIR$/src/com/hzgg/systemnews/util/IBaseDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database.properties" afterPath="$PROJECT_DIR$/src/database.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/login.jsp" afterPath="$PROJECT_DIR$/web/admin/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/main.jsp" afterPath="$PROJECT_DIR$/web/admin/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/menu.jsp" afterPath="$PROJECT_DIR$/web/admin/menu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/newsadd.jsp" afterPath="$PROJECT_DIR$/web/admin/newsadd.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/newsedit.jsp" afterPath="$PROJECT_DIR$/web/admin/newsedit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/newslist.jsp" afterPath="$PROJECT_DIR$/web/admin/newslist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/style.css" afterPath="$PROJECT_DIR$/web/admin/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/typeadd.jsp" afterPath="$PROJECT_DIR$/web/admin/typeadd.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/typeedit.jsp" afterPath="$PROJECT_DIR$/web/admin/typeedit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/typelist.jsp" afterPath="$PROJECT_DIR$/web/admin/typelist.jsp" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,7 +95,7 @@
       <file leaf-file-name="TypeDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/dao/TypeDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="418">
               <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,7 +107,7 @@
       <file leaf-file-name="TypeServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/servlet/TypeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="770">
               <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,7 +139,7 @@
       <file leaf-file-name="typeadd.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/admin/typeadd.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="484">
               <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding />
             </state>
@@ -132,6 +176,9 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -187,10 +234,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
-    <option name="y" value="100" />
-    <option name="width" value="1300" />
-    <option name="height" value="852" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -226,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -398,6 +444,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -409,7 +456,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="D:/jdk/jdk-8u112-docs-all.zip!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -946,12 +993,13 @@
       <updated>1484117227007</updated>
       <workItem from="1484117234696" duration="5975000" />
       <workItem from="1484181351484" duration="22574000" />
-      <workItem from="1484209869723" duration="343000" />
+      <workItem from="1484209869723" duration="475000" />
+      <workItem from="1484223265409" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28892000" />
+    <option name="totallyTimeSpent" value="29045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -963,7 +1011,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="100" width="1300" height="852" extended-state="0" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -984,11 +1032,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25564805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21209678" sideWeight="0.6637807" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21209678" sideWeight="0.33621934" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21593626" sideWeight="0.6553398" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21593626" sideWeight="0.3446602" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1051,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,20 +1201,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzgg/systemnews/adminmanage/servlet/Servlet.java" />
-    <entry file="jar://C:/Java/jdk1.8.0_112/src.zip!/java/lang/annotation/ElementType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="72" column="12" lean-forward="false" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-tomcat-8.5.6/lib/servlet-api.jar!/javax/servlet/annotation/WebServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_112/src.zip!/java/lang/annotation/ElementType.java" />
+    <entry file="jar://D:/apache-tomcat-8.5.6/lib/servlet-api.jar!/javax/servlet/annotation/WebServlet.class" />
     <entry file="file://$PROJECT_DIR$/src/com/hzgg/systemnews/newsmanage/dao/INewsDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1180,31 +1214,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_112/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="165" column="30" lean-forward="true" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-tomcat-8.5.6/lib/servlet-api.jar!/javax/servlet/GenericServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-tomcat-8.5.6/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_112/src.zip!/java/io/Serializable.java" />
+    <entry file="jar://D:/apache-tomcat-8.5.6/lib/servlet-api.jar!/javax/servlet/GenericServlet.class" />
+    <entry file="jar://D:/apache-tomcat-8.5.6/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class" />
     <entry file="file://$PROJECT_DIR$/src/com/hzgg/systemnews/util/IBaseDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1230,7 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,7 +1360,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/servlet/TypeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="770">
           <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1356,7 +1370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hzgg/systemnews/typemanage/dao/TypeDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="418">
           <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1366,7 +1380,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/typeadd.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="484">
           <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding />
         </state>
