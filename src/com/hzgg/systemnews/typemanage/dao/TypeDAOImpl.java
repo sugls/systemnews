@@ -56,6 +56,12 @@ public class TypeDAOImpl implements ITypeDAO{
 
     @Override
     public boolean updateType(NewsTypes type) {
-        return false;
+        boolean result = false;
+        DBUtil dbUtil = new DBUtil();
+        String sql = "UPDATE newstypes SET typename=? WHERE typename=?";
+        dbUtil.getPreparedStatement(sql);
+
+        dbUtil.close();
+        return result;
     }
 }

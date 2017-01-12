@@ -9,6 +9,9 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <style>
+        li{list-style: none}
+    </style>
 </head>
 <body>
 <ul>

@@ -5,7 +5,12 @@
 <meta charset="utf-8">
 <title>新闻模块管理系统</title>
 <style type="text/css">
-	#main{width:400px;height:200px; margin:50px auto; border:#09F 1px solid;}
+    #main {
+        width: 430px;
+        height: 250px;
+        margin: 100px auto;
+        border: #09F 1px solid;
+    }
 	#title{ font-size:20px; color:#09F}
 </style>
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -14,7 +19,7 @@
         if (document.getElementById("username").value==""){
             alert("用户名不能为空");
             document.getElementById("username").focus();
-            return false
+            return false;
         }else if (document.getElementById("password").value==""){
             alert("密码不能为空");
             document.getElementById("password").focus();

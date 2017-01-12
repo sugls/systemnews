@@ -12,8 +12,10 @@
 .tdstyle2{width:20%; background-image:url(images/Lighthouse.jpg); background-position:center}
 .tdstyle3{width:80%}
 .styleC{text-align:center}
-.font1{ font-family:"Microsoft YaHei Mono"; font-size:50px;color:#FFF;}
-.font2{ font-family:"Microsoft YaHei Mono"; font-size:20px; color:#003}
+.font1{
+    font-family: "Microsoft YaHei Mono", monospace; font-size:50px;color:#FFF;}
+.font2{
+    font-family: "Microsoft YaHei Mono", monospace; font-size:20px; color:#003}
 .font3{font-size:20px;color:#000}
 .font6{background-color:#3CC}
 .font7{background-color:#CCC}
