@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tablestyle1{width:80%; margin:auto;}
+.tablestyle2{border:#06F solid 2px; width:100%}
+.marginT20{margin-top:20px}
+.tablestyle3{width:80%; border-bottom:#000 solid 1px; border-right:#000 solid 1px; margin:auto; text-align:center}
+
+.tablestyle3 td{ border-top:#000 1px solid ;border-left:#000 1px solid}
+
+.tdstyle1{ background-image:url(images/Lighthouse.jpg); background-position:center}
+.tdstyle2{width:20%; background-image:url(images/Lighthouse.jpg); background-position:center}
+.tdstyle3{width:80%}
+.styleC{text-align:center}
+.font1{ font-family:"Microsoft YaHei Mono"; font-size:50px;color:#FFF;}
+.font2{ font-family:"Microsoft YaHei Mono"; font-size:20px; color:#003}
+.font3{font-size:20px;color:#000}
+.font6{background-color:#3CC}
+.font7{background-color:#CCC}
+.font8{background-color:#999}
+
+
+
+.styleT{vertical-align:top}
+
+.style2{font-size:24px;font-style:normal;color:#09F; height:1cm}
+.style3{font-size:14px}
+
+a:link{text-decoration:none}
+a:visited{text-decoration:none}
+a:hover{text-decoration:none}
+a:active{text-decoration:none}
+
+.spanR{width: 40%;text-align: right;display: inline-block;}
+.spanL{width: 60%;text-align: left;display: inline-block;}
+.spanC{text-align: center;width: 87%;display: inline-block;}
+.inputw20{width:200px;height: 20px;}
+.areaW200{width: 200px;}
+#tdmain span{ margin-top: 10px; }
+
+.marginT20{margin-top: 20px}
