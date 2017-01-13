@@ -20,7 +20,7 @@ public final class DaoFactory {
             return new AdminDAOImpl();
         } else if ("type".equals(name)){
             return new TypeDAOImpl();
-        } else if ("new".equals(name)){
+        } else if ("news".equals(name)){
             return new NewsDAOImpl();
         } else {
             return null;

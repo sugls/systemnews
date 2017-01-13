@@ -1,6 +1,7 @@
 package com.hzgg.systemnews.adminmanage.dao;
 
 import com.hzgg.systemnews.adminmanage.vo.Admins;
+import com.hzgg.systemnews.util.CloseStream;
 import com.hzgg.systemnews.util.DBUtil;
 
 import java.sql.PreparedStatement;
@@ -32,16 +33,11 @@ public class AdminDAOImpl implements IAdminDAO{
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-          try {
-              if (rs!=null){
-                  rs.close();
-              }
-              if (ps!=null){
-                  ps.close();
-              }
-          } catch (SQLException e) {
-              e.printStackTrace();
-          }
+            try {
+                CloseStream.close(ps,rs);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
         db.close();
         return admin;

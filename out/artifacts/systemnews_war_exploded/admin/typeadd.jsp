@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <title>新闻模块管理系统</title>
 <link href="style.css" rel="stylesheet" type="text/css">
-
+    <script type="text/javascript" src="js/news.js"></script>
 </head>
 
 <body>
@@ -19,10 +19,14 @@
                 <%@ include file="menu.jsp" %>
             </td>
             <td class="styleT tdstyle3">
+                <form action="type" method="post" onsubmit="return checkSubmit()">
+                    ${info}<br>
+                    <input type="hidden" name="option" value="addtype">
             	<div class="font2 marginT20">类别添加</div>
-            	<span class="spanR marginT20">类别名称：</span><span class="spanL"><input type="text" name="" class="inputw20"></span>
+            	<span class="spanR marginT20">类别名称：</span><span class="spanL"><input type="text" id="typename" name="typename" class="inputw20"></span>
                 <span class="spanR"></span><span class="spanL marginT20"><input type="submit" name="" value="确认">&nbsp;&nbsp;<input type="reset" value="重置" name=""></span>
-             </td>
+                </form>
+            </td>
         </tr>
     </table>
 

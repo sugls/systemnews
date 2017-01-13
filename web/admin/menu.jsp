@@ -17,10 +17,10 @@
 <ul>
     <li class="style2">类别管理</li>
     <li class="style3"><a href="type?option=addlink" class="font2">类别添加</a></li>
-    <li class="style3 "><a href="" class="font2">类别列表</a></li>
+    <li class="style3 "><a href="type?option=showtype" class="font2">类别列表</a></li>
     <li class="style2">新闻管理</li>
-    <li class="style3 "><a href="" class="font2">新闻添加</a></li>
-    <li class="style3 "><a href="" class="font2">新闻列表</a></li>
+    <li class="style3 "><a href="news?option=addlink" class="font2">新闻添加</a></li>
+    <li class="style3 "><a href="news?option=shownews" class="font2">新闻列表</a></li>
 </ul>
 </body>
 </html>

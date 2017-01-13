@@ -1,4 +1,5 @@
 <%@ page pageEncoding="utf-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html>
 <head>
@@ -24,6 +25,9 @@
                 	<span class="spanR">新闻标题：</span><span class="spanL"><input type="text" size="20" class="inputw20"></span><br>
                     <span class="spanR">新闻类别：</span><span class="spanL"><select name="newstype" >
                     		<option value="0">---请选择---</option>
+                            <c:forEach items="${types}" var="type">
+                                <option value="${type.typeid}">${type.typename}</option>
+                            </c:forEach>
                     		</select></span><br>
                     <span class="spanR">新闻类容：</span><span class="spanL"><textarea cols="25" rows="5" class="areaW200"></textarea></span><br>
                     <span class="spanR">新闻作者：</span><span class="spanL"><input type="text" size="20" class="inputw20"></span><br>

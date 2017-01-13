@@ -1,6 +1,5 @@
 package com.hzgg.systemnews.adminmanage.servlet;
 
-import com.hzgg.systemnews.adminmanage.dao.AdminDAOImpl;
 import com.hzgg.systemnews.adminmanage.dao.IAdminDAO;
 import com.hzgg.systemnews.adminmanage.vo.Admins;
 import com.hzgg.systemnews.util.DaoFactory;
@@ -22,7 +21,6 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        request.setCharacterEncoding("utf-8");
         String username = request.getParameter("username");
         String userpwd = request.getParameter("passwd");
 

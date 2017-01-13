@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page pageEncoding="utf-8" %>
 <!doctype html>
 <html>
@@ -28,45 +29,20 @@
                         <td>发布日期</td>
                         <td>作者</td>
                     </tr>
+                    <c:forEach items="${newss}" var="news">
                     <tr tdstyle>
-                    	<td><input type="checkbox" name="newslist" value="1"></td>
-                        <td>标题1</td>
-                        <td>国际新闻</td>
-                        <td>2016-06-05</td>
-                        <td>作者一</td>
+                    	<td><input type="checkbox" name="id" value="${news.newsid}"></td>
+                        <td><a href="news?option=onenews&id=${news.newsid}">${news.title}</a> </td>
+                        <td>${news.typename}</td>
+                        <td>${news.createdate}</td>
+                        <td>${news.author}</td>
                     </tr>
-                    <tr>
-                    	<td><input type="checkbox" name="newslist" value="2"></td>
-                        <td>标题1</td>
-                        <td>国际新闻</td>
-                        <td>2016-06-05</td>
-                        <td>作者一</td>
-                    </tr>
-                    <tr>
-                    	<td><input type="checkbox" name="newslist" value="3"></td>
-                        <td>标题1</td>
-                        <td>国际新闻</td>
-                        <td>2016-06-05</td>
-                        <td>作者一</td>
-                    </tr>
-                    <tr>
-                    	<td><input type="checkbox" name="newslist" value="4"></td>
-                        <td>标题1</td>
-                        <td>国际新闻</td>
-                        <td>2016-06-05</td>
-                        <td>作者一</td>
-                    </tr>
-                    <tr>
-                    	<td><input type="checkbox" name="newslist" value="5"></td>
-                        <td>标题1</td>
-                        <td>国际新闻</td>
-                        <td>2016-06-05</td>
-                        <td>作者一</td>
-                    </tr>
+                    </c:forEach>
+
                 </table>
                 <div class="tablestyle1" style="text-align:right"><input type="button" value="删除"></div>
-                <div class="tablestyle1" style="height:20px"><input type="button" value="上一页">
-                &nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="下一页">&nbsp;&nbsp;&nbsp;&nbsp;<label class="font3">1/5</label></div>
+                <div class="tablestyle1" style="height:20px"><a href="news?option=shownews&pages=${pages-1}"><input type="button" value="上一页" ></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="news?option=shownews&pages=${pages+1}"><input type="button" value="下一页"></a>&nbsp;&nbsp;&nbsp;&nbsp;<label class="font3">${pages}/${totalpages}</label></div>
              </td>
         </tr>
     </table>

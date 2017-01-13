@@ -5,17 +5,7 @@
 <meta charset="utf-8">
 <title>新闻模块管理系统</title>
 <link href="style.css" rel="stylesheet" type="text/css">
-<script type="text/javascript">
-    function checkSubmit() {
-        if (document.getElementById("typename").value==""){
-            alert("输入不能为空");
-            document.getElementById("typename").focus();
-            return false;
-        }else {
-            return true;
-        }
-    }
-</script>
+    <script type="text/javascript" src="js/news.js"></script>
 </head>
 
 <body>
